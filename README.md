@@ -5,4 +5,4 @@ The following repository contains all pipelines and scripts I used to analyse mi
 ## The required software are:
 
 
-The steps are:
+## The steps are:
