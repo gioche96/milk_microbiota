@@ -18,4 +18,10 @@ The following repository contains all pipelines and scripts I used to analyse mi
 > [...]
 
 ## The steps are:
-> 0.fastqc.sh  =  Quality check of the raw sequences 
+> _0.quality_check.sh_  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.sh_ for a separate use).
+
+
+
+
+
+<sub>Support and development: @filippob<sub>
