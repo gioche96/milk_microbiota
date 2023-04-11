@@ -9,7 +9,7 @@ The following repository contains all pipelines and scripts I used to analyse mi
 > - [Container](https://hub.docker.com/r/biocontainers/fastqc)
 > - Singularity: _singularity build fastqc-0.11.9_cv7.sif docker://biocontainers/fastqc:v0.11.9_cv7_
 
-> **MultiQC**: it allows generating an overall quality report of all raw sequences, by computing the _.html_ files generated during the FastQC check.
+> **MultiQC**: it allows generating an overall quality report of all raw sequences, by computing the _.zip_ files generated during the FastQC check.
 > - [Official website](https://multiqc.info/)
 > - [Documentation](https://multiqc.info/docs/)
 > - Container: _docker run -t -v pwd:pwd -w pwd \ ewels/multiqc ._
@@ -18,7 +18,7 @@ The following repository contains all pipelines and scripts I used to analyse mi
 > [...]
 
 ## The steps are:
-> _0.quality_check.sh_  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.sh_ for a separate use).
+> _1.quality_check.sh_  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.py_ for a separate use).
 
 
 
