@@ -10,8 +10,8 @@ module load python/3
 module load multiqc
 
 ## Setting the environment
-currpath="pwd"   		        ## Change according to the pwd
-input="$(pwd)/0_Original_files"   	## Change according to the input folder
+currpath="pwd"   		        ## This is supposed to be in the main folder
+input="$(pwd)/0_Original_files"   	## Change according to the input files folder
 outdir="$(pwd)/1_Quality_check"
 core=8
 
