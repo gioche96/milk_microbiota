@@ -20,7 +20,7 @@ The following repository contains all pipelines and scripts I used to analyse mi
 ## The steps are:
 > _1.quality_check.sh_  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.py_ for independent use).
 
-
+> _2.rename_and_count.sh_  =  Changing raw sample names to new names with a predefined format. Reads for each sample are also counted. 
 
 
 
