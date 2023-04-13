@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ##########################################################################
-##			Script to rename samples and count the reads		##
+##		Script to rename samples and count the reads		##
 ##########################################################################
 
 ## Setting the environmnent
