@@ -11,3 +11,5 @@ import multiqc
 
 ## Performing MultiQC locally
 multiqc.run("pwd")		## Change according to the pwd containing the FastQC.zip files
+
+exit 0
