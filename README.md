@@ -17,6 +17,15 @@ The following repository contains all pipelines and scripts I used to analyse mi
 > **micca**: it is one of the pipelines used in microbiota and microbiome analysis. 
 > [...]
 
+Micca: MICrobial Community Analysis
+documentation: https://micca.readthedocs.io/en/latest/ container from: https://hub.docker.com/r/compmetagen/micca/
+
+singularity pull docker://compmetagen/micca
+
+
+
+
+
 ## Workflow
 > _1.quality_check.sh_  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.py_ for independent use).
 
