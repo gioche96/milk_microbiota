@@ -1,6 +1,9 @@
 # Repository for microbiota analysis 🦠
 The following repository contains all pipelines and scripts I used to analyse milk microbiota composition in sheep and goat breeds. DNA was first extracted from individual milk samples; regions V3-V4 of 16S were amplified using a specific PCR-based technique and the amplicons were sequenced through Illumina NovaSeq.
 
+```
+See the WIKI for further information!!!
+```
 
 ## Required software
 **FastQC**: it is software primarily used to provide quality control on raw sequence data coming from high-throughput sequencing pipelines. It works on _.fastq.gz_ files, generating a _.zip_ and a _.html_ (online report) files for each sample.
