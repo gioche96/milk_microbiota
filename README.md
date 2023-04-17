@@ -3,6 +3,8 @@ The following repository contains all pipelines and scripts I used to analyse mi
 
 *See the **[WIKI](https://github.com/gioche96/milk_microbiota/wiki)** for further information!!!*
 
+<br>
+
 ## Required software
 **FastQC**: it is software primarily used to provide quality control on raw sequence data coming from high-throughput sequencing pipelines. 
 
@@ -11,6 +13,8 @@ The following repository contains all pipelines and scripts I used to analyse mi
 **Cutadapt**: it finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from high-throughput sequencing reads.
 
 **MICCA**: it is one of the pipelines used in microbiota and microbiome analysis. 
+
+<br>
 
 ## Workflow
 *1.quality_check.sh*  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.py_ for independent use).
