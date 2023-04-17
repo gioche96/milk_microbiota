@@ -1,7 +1,7 @@
 # Repository for microbiota analysis 🦠
 The following repository contains all pipelines and scripts I used to analyse milk microbiota composition in sheep and goat breeds. DNA was first extracted from individual milk samples; regions V3-V4 of 16S were amplified using a specific PCR-based technique and the amplicons were sequenced through Illumina NovaSeq.
 
-See the [WIKI](https://github.com/gioche96/milk_microbiota/wiki) for further information!!!
+*See the **[WIKI](https://github.com/gioche96/milk_microbiota/wiki)** for further information!!!*
 
 ## Required software
 **FastQC**: it is software primarily used to provide quality control on raw sequence data coming from high-throughput sequencing pipelines. 
@@ -13,11 +13,11 @@ See the [WIKI](https://github.com/gioche96/milk_microbiota/wiki) for further inf
 **MICCA**: it is one of the pipelines used in microbiota and microbiome analysis. 
 
 ## Workflow
-_1.quality_check.sh_  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.py_ for independent use).
+*1.quality_check.sh*  =  Quality check of the raw sequences (see _0.fastqc.sh_ and _0.multiqc.py_ for independent use).
 
-_2.rename_and_count.sh_  =  Changing raw sample names to new names with a predefined format. Reads for each sample are also counted. 
+*2.rename_and_count.sh*  =  Changing raw sample names to new names with a predefined format. Reads for each sample are also counted. 
 
-_3.remove_primers.sh_  =  Removing primers and adapters from raw sequences. 
+*3.remove_primers.sh*  =  Removing primers and adapters from raw sequences. 
 
 <p align="right">
 <sub>Support and development: @filippob<sub>
