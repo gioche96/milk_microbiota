@@ -7,12 +7,12 @@ The following repository contains all pipelines and scripts I used to analyse mi
 
 <br>
 
-## Required software
+## Required software [![FastQC](https://img.shields.io/badge/fastqc-v0.11.9-green)](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) [![MultiQC](https://img.shields.io/badge/multiqc-v1.14-red)](https://multiqc.info/) [![Cutadapt](https://img.shields.io/badge/cutadapt-v.-yellow)](https://cutadapt.readthedocs.io/en/stable/index.html) [![Micca](https://img.shields.io/badge/micca-v.-blue)](https://micca.readthedocs.io/en/latest/)  
 **FastQC**: it is software primarily used to provide quality control on raw sequence data coming from high-throughput sequencing pipelines. 
 
-**MultiQC**: it allows generating an overall quality report of all raw sequences.
+**MultiQC**: it allows generating an overall quality report of all raw sequences. 
 
-**Cutadapt**: it finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from high-throughput sequencing reads.
+**Cutadapt**: it finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from high-throughput sequencing reads. 
 
 **MICCA**: it is one of the pipelines used in microbiota and microbiome analysis. 
 
