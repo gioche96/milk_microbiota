@@ -1,5 +1,7 @@
 # Repository for microbiota analysis 🦠
+<p align="justify"> 
 The following repository contains all pipelines and scripts I used to analyse milk microbiota composition in sheep and goat breeds. DNA was first extracted from individual milk samples; regions V3-V4 of 16S were amplified using a specific PCR-based technique and the amplicons were sequenced through Illumina NovaSeq. The aim is to obtain OTU (Operational Taxonomic Unit) tables from raw data, and thus to characterize the milk microbiota at a species-level. 
+</p>
 
 *See the **[WIKI](https://github.com/gioche96/milk_microbiota/wiki)** for further information!!!*
 
