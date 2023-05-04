@@ -8,7 +8,7 @@
 module load cutadapt
 
 ## Setting the environmnent
-project_home=$(pwd)		## This is supposed to be the main folder
+project_home="$(pwd)"		## This is supposed to be the main folder
 datapath="$(pwd)/2_Renamed_and_count"
 outdir="$(pwd)/3_MICCA"
 core=8
@@ -40,7 +40,7 @@ cd "${datapath}"
 
 for i in *.fastq.gz
 do
-		     echo "$i" | cut -d "_" -f1 >> Sample_name_dupl.txt
+	echo "$i" | cut -d "_" -f1 >> Sample_name_dupl.txt
 done
 
 ## Printing (n) a line and deleting (d) the following one = Creating a list with no duplicates
@@ -96,6 +96,8 @@ cutadapt
 #				 Discard adapters with insertions and deletions, 
 #				 reducing the error tolerance
 
+## Give permissions to the subfolders and files
+chmod -R g+rwx $(pwd)
 
 echo "DONE!"
   
