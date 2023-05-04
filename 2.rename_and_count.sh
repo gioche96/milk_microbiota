@@ -5,7 +5,7 @@
 ##########################################################################
 
 ## Setting the environmnent
-project_home=$(pwd)		## This is supposed to be the main folder
+project_home="$(pwd)"		      ## This is supposed to be the main folder
 datapath="$(pwd)/0_Original_files"    ## Change according to the original files folder
 outdir="$(pwd)/2_Renamed_and_count"
 core=8
@@ -38,6 +38,9 @@ do
         echo -n " = " >> Seq_count_16S_raw.txt
         echo $(zcat $i | wc -l) / 4 | bc >> Seq_count_16S_raw.txt   ## The sum is divided by 4 because for each sequence there are 4 lines of information
 done
+
+## Give permissions to the subfolders and files
+chmod -R g+rwx $(pwd)
 
 echo "DONE!"
 
