@@ -31,7 +31,7 @@ echo "running MultiQC from locally installed software"
 multiqc .
 
 ## Give permissions to subfolders and files
-chmod -R g+rwx $(pwd)
+chmod -R g+rwx /scratch/users/gchessa/PROVA_Microbiota2/*  ## Main folder
 
 echo "Done"
 
