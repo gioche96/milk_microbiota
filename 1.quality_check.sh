@@ -31,7 +31,7 @@ echo "running MultiQC from locally installed software"
 multiqc .
 
 ## Give permissions to the subfolders and files
-chmod -R g+rwx ${currpath}
+chmod -R g+rwx $(pwd)
 
 echo "Done"
 
