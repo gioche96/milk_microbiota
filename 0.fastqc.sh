@@ -4,7 +4,7 @@
 module load fastqc
 
 ## Setting the environment
-input="pwd"		## Change according to the pwd
+input="$(pwd)"		## Change according to the pwd
 
 ## Performing FastQC locally
 for i 
