@@ -39,7 +39,7 @@ do
         echo $(zcat $i | wc -l) / 4 | bc >> Seq_count_16S_raw.txt   ## The sum is divided by 4 because for each sequence there are 4 lines of information
 done
 
-## Give permissions to the subfolders and files
+## Give permissions to subfolders and files
 chmod -R g+rwx $(pwd)
 
 echo "DONE!"
