@@ -16,19 +16,22 @@ outdir="$(pwd)/1_Quality_check"
 core=8
 
 ## Make folder
-	if [ ! -d "${outdir}" ]; then
-		mkdir -p ${outdir}
+if [ ! -d "${outdir}" ]; then
+	mkdir -p ${outdir}
 fi
 
 ## FastQC
-	cd ${outdir}
+cd ${outdir}
 echo "running FASTQC from locally installed software"
 fastqc ${input}/*.fastq.gz -o ${outdir}
 
 ## MultiQC
-	cd ${outdir}
+cd ${outdir}
 echo "running MultiQC from locally installed software"
 multiqc .
+
+## Give permissions to the subfolders and files
+chmod -R g+rwx ${currpath}
 
 echo "Done"
 
