@@ -16,7 +16,7 @@ module load singularity
 
 ## Make outdir folder
 if [ ! -d "${outdir}/3.2_Trimming" ]; then
-                mkdir -p ${outdir}/3.2_Trimming
+        mkdir -p ${outdir}/3.2_Trimming
 fi
 
 ## Trimming process for low quality parts
