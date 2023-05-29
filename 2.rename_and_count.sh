@@ -40,7 +40,7 @@ do
 done
 
 ## Give permissions to subfolders and files
-chmod -R g+rwx /usr/users/gchessa/PROVA_Microbiota/*  ## Main folder
+chmod -R g+rwx /usr/users/gchessa/2_CNR_Microbiota_2/PROVA_Microbiota/* #Main Folder
 
 echo "DONE!"
 
