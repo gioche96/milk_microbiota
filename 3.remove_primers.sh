@@ -97,7 +97,7 @@ cutadapt
 #				 reducing the error tolerance
 
 ## Give permissions to the subfolders and files
-chmod -R g+rwx /scratch/users/gchessa/PROVA_Microbiota/*  ## Main folder
+chmod -R g+rwx /usr/users/gchessa/PROVA_Microbiota/*  ## Main folder
 
 echo "DONE!"
   
