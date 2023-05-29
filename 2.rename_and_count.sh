@@ -32,6 +32,11 @@ done
 ## Count reads
 cd ${outdir}
 
+	## Remove any possible old file named as Seq_count_16S_raw.txt
+		if [ -f "Seq_count_16S_raw.txt" ]; then
+			rm Seq_count_16S_raw.txt
+		fi
+
 for i in *.fastq.gz
 do
         echo -n $i >> Seq_count_16S_raw.txt
